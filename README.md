@@ -2,8 +2,6 @@
 
 This repository provides a flexible example of an AI chatbot that processes PDF files, saves their embeddings in a vector database (Supabase), and responds to user inquiries with OpenAI or other LLMs through LangChain and LangGraph.
 
-It serves as a companion to the book [Learning LangChain (O'Reilly)](https://www.oreilly.com/library/view/learning-langchain/9781098167271/), which covers creating AI and LLM apps with LangChain and LangGraph.
-
 **Chatbot Interface Preview:**
 
 <img width="1096" alt="Screenshot 2025-02-20 at 05 39 55" src="https://github.com/user-attachments/assets/3a9ddea7-b718-476b-bdae-38839be20c12" />
@@ -252,8 +250,3 @@ Set `NEXT_PUBLIC_LANGGRAPH_API_URL` to backend URL.
 5. **Connection Issues**
    - Confirm `NEXT_PUBLIC_LANGGRAPH_API_URL` points to backend (default: http://localhost:2024).
 
-## Future Enhancements
-
-Contributions welcome via pull requests. Include docs and tests.
-
-For more on LangChain and LangGraph chatbots, see [Learning LangChain (O'Reilly)](https://www.oreilly.com/library/view/learning-langchain/9781098167271/).
